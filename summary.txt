@@ -1,0 +1,5 @@
+1. To start User-management system first run mongodb command for starting Mongodb server
+    >/Users/EI13076/mongodb/bin/mongod --dbpath=/Users/EI13076/mongodb-data
+
+2. Post Mongodb Server is up and running run below command in different terminal to initiate usermodel
+    >npm run dev
