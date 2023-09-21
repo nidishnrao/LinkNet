@@ -1,5 +1,13 @@
-1. To start User-management system first run mongodb command for starting Mongodb server
-    >/Users/EI13076/mongodb/bin/mongod --dbpath=/Users/EI13076/mongodb-data
+LinkNet Endpoints
 
-2. Post Mongodb Server is up and running run below command in different terminal to initiate usermodel
-    >npm run dev
+1. Sign Up               --->    linkNet/signUp
+2. Login                 --->    linkNet/login
+3. Logout                --->    linkNet/logout
+4. Logout All Sessions   --->    linkNet/logoutAll
+5. My Profile            --->    linkNet/profile
+6. Update My Profile     --->    linkNet/profile/update
+7. Delete My Profile     --->    linkNet/profile/delete
+8. Search Users          --->    linkNet/search
+9. Search Specific User  --->    linkNet/search/{username}
+
+Note : LinkNet is a dummy variable assigned in postman in place of http://localhost:3000/
