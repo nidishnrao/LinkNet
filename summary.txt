@@ -1,3 +1,7 @@
+LinkNet - User management system (Repository) ---> https://github.com/nidishnrao/LinkNet
+
+API Endpoints : 
+
 LinkNet Endpoints
 
 1. Sign Up               --->    linkNet/signUp
@@ -11,3 +15,15 @@ LinkNet Endpoints
 9. Search Specific User  --->    linkNet/search/{username}
 
 Note : LinkNet is a dummy variable assigned in postman in place of http://localhost:3000/
+
+----------------------------------------------------------------------------------
+
+1. To start User-management system first run mongodb command for starting Mongodb server
+    >/Users/EI13076/mongodb/bin/mongod --dbpath=/Users/EI13076/mongodb-data
+
+2. Post Mongodb Server is up and running run below command in different terminal to initiate usermodel in development mode
+    >npm run dev
+
+3. Post Mongodb Server is up and running run below command in different terminal to initiate usermodel in testing mode
+    >npm test --watch 
+
